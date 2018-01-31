@@ -6,7 +6,6 @@ version 1.0
 */
 
 body {
-    background-color:navajowhite;
     font-family: Verdana, Helvetica, Arial, sans-serif;
     line-height: 125%;
     padding: 0;
@@ -15,90 +14,164 @@ body {
 
 
 h1 {
-    font-size: large;
-    background-color: dodgerblue;
+    font-size: larger;
+    background-color: hotpink;
     color: white;
     padding-top: 2em;
-    padding-bottom: .2em;
+    padding-bottom: 1.2em;
     padding-left: .4em;
     margin: 0;
+    text-align: center;
 }
 
 #tagline p {
     font-style: italic;
+    font-size: large;
+    color: #129d47;
     font-family: Georgia, Times, serif;
-    background-color: #bed8f3;
-    border-top: 3px solid #7da5d8;
-    border-bottom: 3px solid #7da5d8;
-    padding-top: .2em;
-    padding-bottom: .2em;
+    background-color: peachpuff;
+    border-top: 3px solid darksalmon;
+    border-bottom: 3px solid darksalmon;
+    padding-top: .3em;
+    padding-bottom: .3em;
     padding-left: .8em;
     margin: 0;
+    text-align: center;
 }
 
 #header {
     position: absolute;
-    border-top: 3px solid #7da5d8;
+    border-top: 3px solid darksalmon;
     width: 100%;
-}
+    }
+
 
 #navigation {
     position: absolute;
-    top: 110px;
-    width: 110px;
-    height: 180px;
-    background-color: navajowhite;
-    color:black;
+    display: inline-block;
+    right: 250px;
+    top:-10px;
+    width: 50px;
+    height: 195px;
+    background-color: darksalmon;
     padding-left: .8em;
-;
+    padding-top: 6px;
+    border:1px dotted deeppink;
 }
 
 #bodycontent {
-    position: absolute;
-    left: 140px;
-    top: 120px;
+    position: relative;
+    top: 160px;
+    width: 200px;
+    margin: auto;
     padding-top:.4em;
     padding-left:2em;
 }
 
 #postcontent {
     position: absolute;
-    left: 360px;
-    top: 110px;
-    width: 120px;
-    height:180px;
-    background-color: navajowhite;
+    display: inline-block;
+    left: 250px;
+    top:-10px;
+    width: 50px;
+    height: 195px;
+    background-color: darksalmon;
     color:black;
     padding-left: .8em;
-;
+    padding-top: 6px;
+    border:1px dotted deeppink;
 }
 
 #serverResponse {
-    color:red;
     position: absolute;
-    top: 210px;
-    left: 140px;
-    width: 200px;
-    background-color: navajowhite;
-    color: blue;
+    display: inline-block;
+    color:deeppink;
+    top: 230px;
+    left: -120px;
+    width: 450px;
+    height: 70px;
     padding-left: .8em;
-
+    font-size: 21px;
+    text-align: center;
 }
 
 
+#footer{
+    opacity: 0.7;
+}
 
+#instructions {
+    position: absolute;
+    width: 96%;
+    height: 40px;
+    top: 490px;
+    text-align: left;
+    padding-left: 55px;
+    font-size: 18px;
+    color: white;
+    background-color: black;
+}
 
+#base {
+    position: absolute;
+    width: 100%;
+    height: 90px;
+    top: 530px;
+    background-image: url("https://static1.squarespace.com/static/542851b9e4b0c110b8c60d81/t/543fe6abe4b0fffb4578a5ed/1413473963874/Numbers.png");
+}
 
+#guessButton{
+    margin-left: 12px;
+    background-color: #129d47;
+    border-color: #118749;
+    font-size: 25px;
+    padding: 56px 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0 9px #999;
+}
 
+#guessButton:hover {
+    background-color: #20bf5c;
+}
 
+#guessButton:active {
+    background-color: #20bf5c;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
 
+#resetButton {
+position: absolute;
+    cursor: pointer;
+    top:160px;
+    left: 590px;
+    background-color: #ba2f21;
+    border-color: #9c271c;
+    font-size: 25px;
+    padding: 56px 4px;
+    border-radius: 50%;
+    box-shadow: 0 9px #999;
+}
 
+#resetButton:hover {
+    background-color: #d54829;
+}
 
+#resetButton:active {
+    background-color: #d54829;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
 
+.image:hover {
+    opacity: 0.6;
+
+}
 /* padding - between border and text -*/
 
-
 /* class selector*/
+
 .test {
     color: #aa0044;
 }
